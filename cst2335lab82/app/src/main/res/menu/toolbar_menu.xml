@@ -1,0 +1,17 @@
+<!-- res/menu/toolbar_menu.xml -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/item1"
+        android:title="Choice 1"
+        android:icon="@drawable/icon_foreground"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/item2"
+        android:title="Choice 2"
+        android:icon="@drawable/setting_foreground"
+        app:showAsAction="ifRoom" />
+
+</menu>
